@@ -1,8 +1,6 @@
-import { fromModule } from './module';
+import { fromModule } from './module.js';
 
-export const version = '0.0.2';
-
-console.log(fromModule);
+export const version = '1.0.0';
 
 export function sum(a, b) {
   return a + b;
@@ -18,4 +16,5 @@ export function typedSum(a, b) {
   return a + b;
 }
 
-export { fromModule as foo } from './module';
+export { fromModule as foo } from './module.js';
+export { fromModule };
