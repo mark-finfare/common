@@ -1,4 +1,8 @@
-export const version = '0.0.0';
+import { fromModule } from './module';
+
+export const version = '0.0.1';
+
+console.log(fromModule);
 
 export function sum(a, b) {
   return a + b;
