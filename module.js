@@ -1,5 +1,5 @@
 /**
- * @type { { a: number; b: 2 } }
+ * @type { Foo }
  */
 export const fromModule = {
   a: 1,
